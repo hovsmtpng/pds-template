@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "resolveJsonModule": true,
+    /* === React + TSX + JSX Support === */
+    "jsx": "react-jsx",         // Gunakan JSX modern
+    "allowJs": true,            // Izinkan file .js & .jsx
+    "checkJs": false,           // Jangan lint JS (supaya pages bebas)
+    "isolatedModules": true,    // Diperlukan untuk Vite + ESNext
+
+    /* === Tambahkan ini penting === */
+    "noEmit": true,               // ✅ JANGAN output file hasil compile
+
+    /* === Path alias dari jsconfig kamu === */
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+
+    /* === TypeScript essentials === */
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "strict": true,
+    "skipLibCheck": true
+  },
+
+  /* === Sertakan semua file di src === */
+  "include": ["src/**/*", "src/types"]
+}

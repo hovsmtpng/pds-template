@@ -1,0 +1,23 @@
+{
+  "hello_name": "Halo, {{name}}!",
+  "language": "Bahasa",
+  "feature_discovery": "Fitur Unggulan",
+  "welcome": {
+    "title": "Selamat datang di Odong Apps!",
+    "sub_title": "Kelola pekerjaan Anda dan tingkatkan kinerja Anda dengan Odong Apps.",
+    "feature_discovery": "Fitur Unggulan",
+    "view_dashboard": {
+      "title": "Lihat Dasboard",
+      "desc": "Lihat ringkasan statistik dan status untuk semua dokumen Anda."
+    },
+    "generate_report": {
+      "title": "Buat Laporan",
+      "desc": "Hasilkan laporan operasional secara instan berdasarkan data terbaru."
+    },
+    "manage_master_data": {
+      "title": "Kelola Data Master",
+      "desc": "Atur data utama yang digunakan dalam transaksi dokumen."
+    }
+  },
+  "document_transaction": "Transaksi Dokumen"
+}

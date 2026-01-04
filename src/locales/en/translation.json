@@ -1,0 +1,23 @@
+{
+  "hello_name": "Hello, {{name}}!",
+  "language": "Language",
+  "feature_discovery": "Feature Discovery",
+  "welcome": {
+    "title": "Welcome to Odong Apps!",
+    "sub_title": "Organize your work and improve your performance with Odong Apps.",
+    "feature_discovery": "Feature Discovery",
+    "view_dashboard": {
+      "title": "View Dashboard",
+      "desc": "View a summary of statistics and statuses for all your documents."
+    },
+    "generate_report": {
+      "title": "Generate Report",
+      "desc": "Instantly generate operational reports based on the latest data."
+    },
+    "manage_master_data": {
+      "title": "Manage Master Data",
+      "desc": "Organize the primary data used in document transactions."
+    }
+  },
+  "document_transaction": "Document Transaction"
+}
