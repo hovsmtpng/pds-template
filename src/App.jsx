@@ -28,7 +28,7 @@ import LoadingPage from "@/components/loading-page"
 import VisibilitySetting from "./VisibilitySetting";
 import AccountInformation from "./AccountInformation";
 import { NotFound } from "@puninar-logistics/pds-sdk";
-import { PageNotAssigned } from "@puninar-logistics/pds-sdk";
+import { NotAssigned } from "@puninar-logistics/pds-sdk";
 import { getLocalStorage } from "@puninar-logistics/pds-sdk";
 import { useIsMobile } from "@/hooks/use-mobile";
 import { decodeData } from "@puninar-logistics/pds-sdk";
@@ -318,7 +318,7 @@ export default function App() {
                       })}
 
                       <Route path="*" element={<NotFound />} />
-                      <Route path="not-assigned" element={<PageNotAssigned />} />
+                      <Route path="not-assigned" element={<NotAssigned />} />
                     </Routes>
                   </div>
                 </div>

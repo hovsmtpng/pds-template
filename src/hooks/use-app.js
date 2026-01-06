@@ -16,7 +16,7 @@ import Welcome from "@/pages/Welcome"
 
 // Default
 import { NotFound } from "@puninar-logistics/pds-sdk"
-import { PageNotAssigned } from "@puninar-logistics/pds-sdk";
+import { NotAssigned } from "@puninar-logistics/pds-sdk";
 import { UnderMaintenance } from "@puninar-logistics/pds-sdk"
 
 import { withAppContext } from "@puninar-logistics/pds-sdk";
@@ -221,7 +221,7 @@ export function useApp({ role, auth, modules, lobby, userRole = [] }) {
             userRole,
         }
 
-        const Wrapped = Component ? withAppContext(Component, appProps) : PageNotAssigned
+        const Wrapped = Component ? withAppContext(Component, appProps) : NotAssigned
 
         return {
             title: item.menu_name,
