@@ -26,9 +26,9 @@ import {
   useSidebar,
 } from "@/components/ui/sidebar";
 
-import { handleLogout } from "@/api/sessionService";
+import { handleLogout } from "@puninar-logistics/pds-sdk";
 import React from "react";
-import { getInitials } from "@/utils";
+import { getInitials } from "@puninar-logistics/pds-sdk";
 
 // 🧩 Type definitions
 interface User {

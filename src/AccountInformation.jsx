@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/button"
+import { Button } from "@puninar-logistics/pds-sdk"
 import {
     Dialog,
     DialogClose,
@@ -7,10 +7,10 @@ import {
     DialogFooter,
     DialogHeader,
     DialogTitle,
-} from "@/components/ui/dialog"
-import { Checkbox } from "@/components/ui/checkbox"
-import { Input } from "@/components/ui/input"
-import { Separator } from "@/components/ui/separator"
+} from "@puninar-logistics/pds-sdk"
+import { Checkbox } from "@puninar-logistics/pds-sdk"
+import { Input } from "@puninar-logistics/pds-sdk"
+import { Separator } from "@puninar-logistics/pds-sdk"
 import { NewDataTable } from "./components/data-table"
 import { Download } from "lucide-react"
 

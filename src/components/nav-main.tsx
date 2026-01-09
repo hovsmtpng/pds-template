@@ -8,7 +8,7 @@ import {
   Collapsible,
   CollapsibleContent,
   CollapsibleTrigger,
-} from "@/components/ui/collapsible"
+} from "@puninar-logistics/pds-sdk"
 
 import {
   DropdownMenu,
@@ -31,7 +31,7 @@ import {
 } from "@/components/ui/sidebar"
 
 import { cn } from "@/lib/utils"
-import { Text } from "./text"
+import { Text } from "@puninar-logistics/pds-sdk"
 
 // 🧠 Type definitions
 export interface NavSubItem {

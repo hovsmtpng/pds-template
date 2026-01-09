@@ -2,7 +2,7 @@ import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
 import en from "@/locales/en/translation.json";
 import id from "@/locales/id/translation.json";
-import { getLocalStorage, setLocalStorage } from "./utils/localStorage";
+import { getLocalStorage, setLocalStorage } from "@puninar-logistics/pds-sdk";
 
 const language = (getLocalStorage("language") as string) || "en";
 

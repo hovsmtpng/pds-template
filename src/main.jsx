@@ -1,6 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-// import "./custom.css";
 
 import "@puninar-logistics/pds-sdk/custom.css";
 
@@ -10,7 +9,7 @@ import "./i18n"; // penting: inisialisasi sebelum render
 
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
-import { AuthProvider } from "./auth/AuthContext";
+import { AuthProvider } from "@puninar-logistics/pds-sdk";
 // import "primereact/resources/themes/lara-light-blue/theme.css";
 // import "primereact/resources/themes/lara-light-cyan/theme.css";
 // import "primereact/resources/primereact.min.css";

@@ -2,14 +2,14 @@ import { useContext, useEffect, useState, useCallback } from "react"
 
 const isReverseProxy = import.meta.env.VITE_REVERSE_PROXY === "true";
 
-import { AuthContext } from "./auth/AuthContext";
-import { checkSession } from "./api/sessionService";
+import { AuthContext } from "@puninar-logistics/pds-sdk";
+import { checkSession } from "@puninar-logistics/pds-sdk";
 import { useActivePath } from "./ActivePathContext";
 
 import { AppSidebar } from "@/components/app-sidebar"
-import { Separator } from "@/components/ui/separator"
-import { NavActions } from "@/components/nav-actions"
-import { ThemeProvider } from "@/components/theme-provider"
+import { Separator } from "@puninar-logistics/pds-sdk"
+import { NavActions } from "@puninar-logistics/pds-sdk"
+import { ThemeProvider } from "@puninar-logistics/pds-sdk"
 import { useApp } from "./hooks/use-app";
 
 import {
@@ -22,7 +22,7 @@ import {
 // import { ROUTE_AP } from "./routes/index-ap";
 
 import { Route, Routes, useLocation } from "react-router-dom"
-import GenerateBreadcrumb from "@/components/bread-crumb"
+import { GenerateBreadcrumb } from "@puninar-logistics/pds-sdk"
 import LoadingPage from "@/components/loading-page"
 
 import VisibilitySetting from "./VisibilitySetting";

@@ -1,5 +1,5 @@
 import { useState, useEffect, useCallback, useMemo } from "react"
-import { apiCall } from "../api/apiService"
+import { apiCall } from "@puninar-logistics/pds-sdk"
 import * as Icon from "lucide-react"
 import OdongIcon from "@/assets/OdongIcon"
 
@@ -25,7 +25,7 @@ import { useNavigate } from "react-router-dom"
 import { useDialog } from "@/providers/AlertDialogProvider"
 import { set } from "zod"
 
-import StatusIndicator from "@/components/status-indicator"
+import { StatusIndicator } from "@puninar-logistics/pds-sdk"
 
 const componentRoute = {
     Dashboard,

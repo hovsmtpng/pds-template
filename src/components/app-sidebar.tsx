@@ -26,8 +26,8 @@ import {
 } from "@/components/ui/sidebar"
 
 import OdongIcon from "@/assets/OdongIcon"
-import { AuthContext } from "@/auth/AuthContext"
-import NoMenuAvailable from "./error-pages/NoMenuAvailable"
+import { useAuth } from "@puninar-logistics/pds-sdk"
+import {NoMenuAvailable} from "@puninar-logistics/pds-sdk"
 import { convertRoutesToNavItems } from "@/lib/convertRoutesToNavItems"
 
 // 🧠 Types
@@ -110,7 +110,7 @@ export function AppSidebar({
   ...props
 }: AppSidebarProps) {
   const { state, toggleSidebar } = useSidebar()
-  const { auth } = React.useContext(AuthContext)
+  const { auth } = useAuth()
 
   const wasCollapsed = React.useRef(false)
 
